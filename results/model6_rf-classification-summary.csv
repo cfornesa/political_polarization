@@ -1,0 +1,5 @@
+Model,Dataset,Kernel,Regularization,Accuracy,F1-score,Ratio,Best Parameters
+Random Forest,Convabuse,NA,NA,0.5851211760031784,0.5801892135715134,0.0,"{'rf_classifier__n_estimators': 170, 'rf_classifier__min_samples_split': 1209, 'rf_classifier__min_samples_leaf': 403, 'rf_classifier__max_depth': 10, 'rf_classifier__criterion': 'gini'}"
+Random Forest,Dynamically Generated Hate Speech,NA,NA,0.8377701634159199,0.8334301282943788,0.0,"{'rf_classifier__n_estimators': 600, 'rf_classifier__min_samples_split': 1520, 'rf_classifier__min_samples_leaf': 304, 'rf_classifier__max_depth': 5, 'rf_classifier__criterion': 'entropy'}"
+Random Forest,US Elections 2020 Hate Speech,NA,NA,0.719811320754717,0.718904074498718,0.0,"{'rf_classifier__n_estimators': 994, 'rf_classifier__min_samples_split': 86, 'rf_classifier__min_samples_leaf': 43, 'rf_classifier__max_depth': 13, 'rf_classifier__criterion': 'entropy'}"
+Random Forest,MLMA Hate Speech,NA,NA,0.9765319426336375,0.9684653883174434,0.0,"{'rf_classifier__n_estimators': 303, 'rf_classifier__min_samples_split': 2625, 'rf_classifier__min_samples_leaf': 525, 'rf_classifier__max_depth': 16, 'rf_classifier__criterion': 'gini'}"

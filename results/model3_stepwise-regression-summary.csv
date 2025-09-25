@@ -1,0 +1,9 @@
+Model,Dataset,RMSE,R2
+Forward Selection,Convabuse,0.6367499526257224,0.7971269321259483
+Backward Selection,Convabuse,0.6362385037985773,0.7974527037152079
+Principal Components Regression,Convabuse,0.6372407957165299,0.7968140393686416
+Principal Least Squares Regression,Convabuse,0.6363372150133614,0.7973898491707566
+Forward Selection,Online Abusive Attacks,4.8693622106231,0.9003133062787494
+Backward Selection,Online Abusive Attacks,4.8693622106231,0.9003133062787494
+Principal Components Regression,Online Abusive Attacks,4.1294794096422285,0.9283058632248128
+Principal Least Squares Regression,Online Abusive Attacks,4.129479409642256,0.9283058632248118

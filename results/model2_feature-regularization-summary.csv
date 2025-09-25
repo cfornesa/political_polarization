@@ -1,0 +1,13 @@
+Model,Dataset,RMSE,R2
+Lasso Regularization,Convabuse,0.6393119032667297,0.7954911365124318
+Ridge Regularization,Convabuse,0.6363372083296566,0.7973898534269479
+ElasticNet Regularization,Convabuse,0.6388382433674025,0.795794061463626
+Lasso Regularization,Online Abusive Attacks,3.9818091230384134,0.9333417504765522
+Ridge Regularization,Online Abusive Attacks,4.129597487358657,0.9283017631433534
+ElasticNet Regularization,Online Abusive Attacks,4.018054667857664,0.9321226759546162
+Lasso Linear Regression,Convabuse,0.6389967133946114,0.7956927383677007
+Ridge Linear Regression,Convabuse,0.6548552869026937,0.7854259342708625
+ElasticNet Linear Regression,Convabuse,0.6363202908019435,0.7974006263855653
+Linear Lasso Regression,Online Abusive Attacks,4.1294794096422365,0.9283058632248125
+Linear Ridge Regression,Online Abusive Attacks,4.155792784347307,0.9273892705946111
+Linear ElasticNet Regression,Online Abusive Attacks,4.155792784347307,0.9273892705946111
