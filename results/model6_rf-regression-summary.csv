@@ -1,2 +1,2 @@
 Model,Dataset,RMSE,R2,Best Parameters
-Random Forest,Online Abusive Attacks,8.144347350353712,0.15683674314718898,"{'rf_regressor__min_samples_split': 25, 'rf_regressor__min_samples_leaf': 10, 'rf_regressor__max_depth': 5, 'rf_regressor__criterion': 'absolute_error'}"
+Random Forest,Online Abusive Attacks,12.845114053807931,0.3063043683548343,"{'rf_regressor__n_estimators': 958, 'rf_regressor__min_samples_split': 57, 'rf_regressor__min_samples_leaf': 19, 'rf_regressor__max_depth': 7, 'rf_regressor__criterion': 'squared_error'}"

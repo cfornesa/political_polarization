@@ -1,0 +1,5 @@
+Model,Dataset,Accuracy,F1-score,L1 Ratio
+Support Vector Machine,Convabuse,0.3428684942391736,0.2468735054913945,0.0
+Logistic Regression,Dynamically Generated Hate Speech,0.834870848708487,0.8025838979045218,0.0
+Decision Tree,MLMA Hate Speech,1.0,1.0,0.0
+K-Nearest Neighbors,US Elections 2020 Hate Speech,0.6849056603773584,0.6836255783344402,0.0

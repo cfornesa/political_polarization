@@ -1,4 +1,4 @@
-example_no,annotator_id,bot,Not Abusive,Ambigious,Abusive,Very Abusive,Very Strongly Abusive,ableism,homophobic,intellectual,racist,sexist,sex_harassment,transphobic,generalised,individual,system,explicit,implicit
+example_no,annotator_id,bot,Not Abusive,Ambiguous,Abusive,Very Abusive,Very Strongly Abusive,ableism,homophobic,intellectual,racist,sexist,sex_harassment,transphobic,generalised,individual,system,explicit,implicit
 0,7,E.L.I.Z.A.,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1,7,E.L.I.Z.A.,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2,7,E.L.I.Z.A.,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

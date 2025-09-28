@@ -1,5 +1,5 @@
 Dataset,Best Model Silhouette Score,Best Model Inertia,Chosen Model Silhouette Score,Chosen Model Inertia,Best Parameters
-Convabuse,0.2737836069538702,1911.7522167609943,0.4541228193393626,739.0136557451301,"{'init': 'k-means++', 'max_iter': 40, 'n_init': 18}"
-Dynamically Generated Hate Speech,0.5598049213481145,4245.290808513961,0.6568675302584432,920.0894255072907,"{'init': 'k-means++', 'max_iter': 1, 'n_init': 18}"
-US Elections 2020 Hate Speech,0.5220093073197893,13.515696274850765,0.5220093073197893,11.256189619813311,"{'init': 'k-means++', 'max_iter': 2, 'n_init': 24}"
-MLMA Hate Speech,0.5739164793421628,384.66090104098294,0.630086398410043,6316.509246270446,"{'init': 'k-means++', 'max_iter': 2, 'n_init': 28}"
+Convabuse,1.0,4.843082105112139e-28,1.0,2.356035244766802e-25,"{'init': 'k-means++', 'max_iter': 1, 'n_init': 1}"
+Dynamically Generated Hate Speech,0.8438017110296935,1681.3139311578914,0.9987880867038873,21.944128018519056,"{'init': 'k-means++', 'max_iter': 1, 'n_init': 8}"
+US Elections 2020 Hate Speech,0.861034097097756,2.9945010112655304,0.7272727272727273,0.4574389817603739,"{'init': 'k-means++', 'max_iter': 1, 'n_init': 18}"
+MLMA Hate Speech,0.10369882019829868,3999.864634008176,0.09744877283104425,2679.2388651315546,"{'init': 'k-means++', 'max_iter': 15, 'n_init': 20}"

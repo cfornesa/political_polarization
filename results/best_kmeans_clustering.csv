@@ -1,0 +1,5 @@
+Dataset,Silhouette Score,Inertia,Model
+Convabuse,1.0,4.843082105112139e-28,Best
+Dynamically Generated Hate Speech,0.9987880867038872,21.944128018519056,Chosen
+US Elections 2020 Hate Speech,0.861034097097756,2.9945010112655304,Best
+MLMA Hate Speech,0.1036988201982986,3999.864634008176,Best

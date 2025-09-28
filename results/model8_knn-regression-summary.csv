@@ -1,2 +1,2 @@
 Model,Dataset,RMSE,R2,Best Parameters
-K-Nearest Neighbors,Online Abusive Attacks,7.10073916406283,0.3590764689068263,"{'knn_regressor__metric': 'euclidean', 'knn_regressor__n_neighbors': 11, 'knn_regressor__weights': 'distance'}"
+K-Nearest Neighbors,Online Abusive Attacks,4.31753394494479,0.9216273464274056,"{'knn_regressor__metric': 'manhattan', 'knn_regressor__n_neighbors': 5, 'knn_regressor__weights': 'uniform'}"
