@@ -1,5 +1,5 @@
 Model,Dataset,Kernel,Regularization,Accuracy,F1-score,Ratio,Best Parameters
 Gradient Boosting,Convabuse,NA,NA,0.2801946762018276,0.15604460729529318,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 1, 'gb__min_samples_leaf': 40, 'gb__n_estimators': 4}"
 Gradient Boosting,Dynamically Generated Hate Speech,NA,NA,0.834870848708487,0.8302887273632195,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 1, 'gb__min_samples_leaf': 30, 'gb__n_estimators': 3}"
-Gradient Boosting,US Elections 2020 Hate Speech,NA,NA,0.6245283018867924,0.6246031726836075,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 3, 'gb__min_samples_leaf': 4, 'gb__n_estimators': 60}"
-Gradient Boosting,MLMA Hate Speech,NA,NA,0.9952211394302849,0.9952232579238176,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 1, 'gb__min_samples_leaf': 42, 'gb__n_estimators': 11}"
+Gradient Boosting,US Elections 2020 Hate Speech,NA,NA,0.6714015151515151,0.6713246003764185,0.0,"{'gb__learning_rate': np.float64(0.020000000000000004), 'gb__max_depth': 2, 'gb__min_samples_leaf': 4, 'gb__n_estimators': 78}"
+Gradient Boosting,MLMA Hate Speech,NA,NA,0.3242128935532234,0.32027991047340343,0.0,"{'gb__learning_rate': np.float64(0.1), 'gb__max_depth': 3, 'gb__min_samples_leaf': 42, 'gb__n_estimators': 12}"

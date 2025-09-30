@@ -1,5 +1,5 @@
 Model,Dataset,Kernel,Regularization,Accuracy,F1-score,Ratio,Best Parameters
 K-Nearest Neighbors,Convabuse,NA,NA,0.33234008740564164,0.2378010774143733,0.0,"{'knn_classifier__metric': 'euclidean', 'knn_classifier__n_neighbors': 40, 'knn_classifier__weights': 'uniform'}"
 K-Nearest Neighbors,Dynamically Generated Hate Speech,NA,NA,0.834870848708487,0.8302887273632195,0.0,"{'knn_classifier__metric': 'euclidean', 'knn_classifier__n_neighbors': 60, 'knn_classifier__weights': 'uniform'}"
-K-Nearest Neighbors,US Elections 2020 Hate Speech,NA,NA,0.6849056603773584,0.6836255783344402,0.0,"{'knn_classifier__metric': 'euclidean', 'knn_classifier__n_neighbors': 20, 'knn_classifier__weights': 'distance'}"
-K-Nearest Neighbors,MLMA Hate Speech,NA,NA,0.9512743628185907,0.9512140142913743,0.0,"{'knn_classifier__metric': 'manhattan', 'knn_classifier__n_neighbors': 378, 'knn_classifier__weights': 'distance'}"
+K-Nearest Neighbors,US Elections 2020 Hate Speech,NA,NA,0.7035984848484849,0.7026316577874102,0.0,"{'knn_classifier__metric': 'euclidean', 'knn_classifier__n_neighbors': 20, 'knn_classifier__weights': 'uniform'}"
+K-Nearest Neighbors,MLMA Hate Speech,NA,NA,0.47048350824587704,0.4649470576132468,0.0,"{'knn_classifier__metric': 'chebyshev', 'knn_classifier__n_neighbors': 210, 'knn_classifier__weights': 'distance'}"

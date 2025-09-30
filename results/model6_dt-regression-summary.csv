@@ -1,2 +1,2 @@
 Model,Dataset,RMSE,R2,Best Parameters
-Decision Tree,Online Abusive Attacks,11.955131949815327,0.3991005898170088,"{'dt_regressor__min_samples_split': 38, 'dt_regressor__min_samples_leaf': 19, 'dt_regressor__max_depth': 11, 'dt_regressor__criterion': 'squared_error'}"
+Decision Tree,Online Abusive Attacks,23.2378670617579,0.3589702920843916,"{'dt_regressor__min_samples_split': 38, 'dt_regressor__min_samples_leaf': 19, 'dt_regressor__max_depth': 11, 'dt_regressor__criterion': 'squared_error'}"

@@ -1,3 +1,4 @@
 Model,Dataset,RMSE,R2
 Linear Regression,Convabuse,1.2506692288951176,0.2173429826486719
-Lasso Regularization,Online Abusive Attacks,4.008306165935147,0.9324516408772168
+Linear Regression,MLMA Hate Speech,1.439999707898464,0.0599994540241179
+K-Nearest Neighbors,Online Abusive Attacks,22.016795782450195,0.4245681988491535

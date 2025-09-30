@@ -1,7 +1,7 @@
 Model,Dataset,RMSE,R2
-Lasso Regularization,Online Abusive Attacks,4.008306165935147,0.9324516408772168
-Ridge Regularization,Online Abusive Attacks,4.129597487358657,0.9283017631433534
-ElasticNet Regularization,Online Abusive Attacks,4.018054667857664,0.9321226759546162
-Linear Lasso Regression,Online Abusive Attacks,4.1294794096422365,0.9283058632248125
-Linear Ridge Regression,Online Abusive Attacks,4.155792784347307,0.9273892705946111
-Linear ElasticNet Regression,Online Abusive Attacks,4.155792784347307,0.9273892705946111
+Lasso Regularization,Online Abusive Attacks,25.179174757723498,0.24739237268272474
+Ridge Regularization,Online Abusive Attacks,25.184472810343816,0.24707562089493762
+ElasticNet Regularization,Online Abusive Attacks,25.178477793969318,0.24743403671522202
+Linear Lasso Regression,Online Abusive Attacks,25.184476526738294,0.2470753986814943
+Linear Ridge Regression,Online Abusive Attacks,25.07042266063495,0.253879551333844
+Linear ElasticNet Regression,Online Abusive Attacks,25.07042266063495,0.253879551333844

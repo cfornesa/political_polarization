@@ -1,5 +1,6 @@
 Model,Dataset,RMSE,R2
 Linear Regression,Convabuse,1.2506692288951176,0.2173429826486719
 Linear Regression,Dynamically Generated Hate Speech,0.3365342736511525,0.5469775976385824
-Linear Regression,Online Abusive Attacks,4.1294794096422365,0.9283058632248125
-Linear Regression,US Elections 2020 Hate Speech,0.4991128291565905,0.0027467384178758714
+Linear Regression,Online Abusive Attacks,25.184476526738294,0.2470753986814943
+Linear Regression,US Elections 2020 Hate Speech,0.4686345912207067,0.12121125755881279
+Linear Regression,MLMA Hate Speech,1.4399997078984639,0.05999945402411799
