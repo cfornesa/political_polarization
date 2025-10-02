@@ -4,6 +4,7 @@ Linear Regression,Dynamically Generated Hate Speech,0.3365342736511525,0.5469775
 Linear Regression,Online Abusive Attacks,25.18447652673829,0.2470753986814943
 Linear Regression,US Elections 2020 Hate Speech,0.4686345912207067,0.1212112575588127
 Linear Regression,MLMA Hate Speech,1.439999707898464,0.0599994540241179
+Linear Regression,Convabuse MLMA,1.3108349521443643,0.1345942605117757
 Lasso Regularization,Online Abusive Attacks,25.179174757723494,0.2473923726827247
 Ridge Regularization,Online Abusive Attacks,25.184472810343816,0.2470756208949376
 ElasticNet Regularization,Online Abusive Attacks,25.17847779396932,0.247434036715222
