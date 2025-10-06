@@ -1,2 +1,2 @@
 Model,Dataset,RMSE,R2,Best Parameters
-Gradient Boosting,Online Abusive Attacks,55.32894746537383,-2.6340462349609064,"{'gb__learning_rate': np.float64(0.07), 'gb__max_depth': 1, 'gb__min_samples_leaf': 1, 'gb__n_estimators': 26}"
+Gradient Boosting,Online Abusive Attacks,53.81840030661955,-2.438327181588279,"{'gb__learning_rate': np.float64(0.08), 'gb__max_depth': 1, 'gb__min_samples_leaf': 1, 'gb__n_estimators': 22}"

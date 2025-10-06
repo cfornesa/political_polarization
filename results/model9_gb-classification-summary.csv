@@ -1,6 +1,5 @@
 Model,Dataset,Kernel,Regularization,Accuracy,F1-score,Ratio,Best Parameters
-Gradient Boosting,Convabuse,,,0.2801946762018276,0.1560446072952931,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 1, 'gb__min_samples_leaf': 40, 'gb__n_estimators': 4}"
-Gradient Boosting,Dynamically Generated Hate Speech,,,0.834870848708487,0.8302887273632195,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 1, 'gb__min_samples_leaf': 30, 'gb__n_estimators': 3}"
-Gradient Boosting,US Elections 2020 Hate Speech,,,0.6714015151515151,0.6713246003764185,0.0,"{'gb__learning_rate': np.float64(0.020000000000000004), 'gb__max_depth': 2, 'gb__min_samples_leaf': 4, 'gb__n_estimators': 78}"
-Gradient Boosting,MLMA Hate Speech,,,0.3242128935532234,0.3202799104734034,0.0,"{'gb__learning_rate': np.float64(0.1), 'gb__max_depth': 3, 'gb__min_samples_leaf': 42, 'gb__n_estimators': 12}"
-Gradient Boosting,Convabuse MLMA,NA,NA,0.28249758919961426,0.17305179883282418,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 2, 'gb__min_samples_leaf': 1037, 'gb__n_estimators': 6}"
+Gradient Boosting,Convabuse,NA,NA,0.5804015106340688,0.5773961673201741,0.0,"{'gb__learning_rate': np.float64(0.1), 'gb__max_depth': 5, 'gb__min_samples_leaf': 20, 'gb__n_estimators': 92}"
+Gradient Boosting,Dynamically Generated Hate Speech,NA,NA,0.8523985239852399,0.8513076732384929,0.0,"{'gb__learning_rate': np.float64(0.04000000000000001), 'gb__max_depth': 3, 'gb__min_samples_leaf': 30, 'gb__n_estimators': 78}"
+Gradient Boosting,US Elections 2020 Hate Speech,NA,NA,0.6714015151515151,0.6713246003764185,0.0,"{'gb__learning_rate': np.float64(0.020000000000000004), 'gb__max_depth': 2, 'gb__min_samples_leaf': 4, 'gb__n_estimators': 78}"
+Gradient Boosting,MLMA Hate Speech,NA,NA,0.5782869612656847,0.507865828027655,0.0,"{'gb__learning_rate': np.float64(0.01), 'gb__max_depth': 2, 'gb__min_samples_leaf': 14, 'gb__n_estimators': 97}"
