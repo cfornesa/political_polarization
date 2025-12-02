@@ -1,5 +1,0 @@
-Model,Dataset,Kernel,Regularization,Accuracy,F1-score,Ratio,Best Parameters
-Decision Tree,Convabuse,NA,NA,0.6211488769628305,0.6213326756367671,0.0,"{'dt_classifier__min_samples_split': 404, 'dt_classifier__min_samples_leaf': 202, 'dt_classifier__max_depth': 8, 'dt_classifier__criterion': 'gini'}"
-Decision Tree,Dynamically Generated Hate Speech,NA,NA,0.8523985239852399,0.8513076732384929,0.0,"{'dt_classifier__min_samples_split': 1520, 'dt_classifier__min_samples_leaf': 1520, 'dt_classifier__max_depth': 15, 'dt_classifier__criterion': 'gini'}"
-Decision Tree,US Elections 2020 Hate Speech,NA,NA,0.7035984848484849,0.7026316577874102,0.0,"{'dt_classifier__min_samples_split': 215, 'dt_classifier__min_samples_leaf': 215, 'dt_classifier__max_depth': 13, 'dt_classifier__criterion': 'gini'}"
-Decision Tree,MLMA Hate Speech,NA,NA,0.5976541189307146,0.5002321963681817,0.0,"{'dt_classifier__min_samples_split': 370, 'dt_classifier__min_samples_leaf': 634, 'dt_classifier__max_depth': 6, 'dt_classifier__criterion': 'entropy'}"

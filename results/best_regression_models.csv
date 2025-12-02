@@ -1,4 +1,0 @@
-Model,Dataset,RMSE,R2
-Linear Regression,Convabuse,0.6484222206923745,0.7920697873906051
-Linear Regression,MLMA Hate Speech,0.6817187684226717,0.062739803886624
-K-Nearest Neighbors,Online Abusive Attacks,22.016795782450195,0.4245681988491535
