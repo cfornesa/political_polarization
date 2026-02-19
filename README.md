@@ -67,7 +67,7 @@ The **Bias Detector Agent** evolves the Phase 1 research into a production tool 
 │   └── Fornesa_Christopher_Capstone.pdf  # The original academic research paper
 │
 └── README.md
-
+```
 
 ## 🔗 Connect with the Creator
 
