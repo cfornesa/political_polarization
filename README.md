@@ -5,29 +5,41 @@
 [![Deployed on Google Opal](https://img.shields.io/badge/Deployed%20on-Google%20Opal-blue.svg)](https://opal.google/app/1vUJA2IktLVp0KKynli2xPaseY5CzPx-d)
 
 ## 🚀 Executive Summary
-This repository houses the research, datasets, and cognitive architectures for a two-phase project on **Hate Speech Detection** and **Implicit Bias Analysis**.
+This repository houses the research, datasets, and cognitive architectures for a **two-phase project** on Hate Speech Detection and Implicit Bias Analysis.
 
-What began as an academic capstone using **Random Forest** and **SBERT** models to classify political toxicity has evolved into a production-grade **Bias Intelligence System** deployed on Google's experimental **Opal** platform.
+*   **Phase 1 (Research):** A technical capstone using **Random Forest** and **SBERT** models to quantify toxicity and political polarization in social media data.
+*   **Phase 2 (Production):** An enterprise-grade **Bias Intelligence System** (Agent) that operationalizes the research into a dual-layer reasoning engine on Google's experimental **Opal** platform.
 
 ---
 
 ## 🛠️ Live Applications (The "Opal Suite")
 
-| Application | Type | Architecture | Status | Live Link |
+| Application | Phase | Architecture | Status | Live Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **Bias Detector** | Enterprise Agent | **Dual-Layer Reasoning** (Sentiment Map + Implicit Framework) | 🟢 Active | [**Launch App**](https://opal.google/app/1vUJA2IktLVp0KKynli2xPaseY5CzPx-d) |
-| **Hate Speech Auditor** | Research Demo | **Random Forest Classification** (Trained on DGHS/MLMA) | 🟡 Experimental | [**Launch App**](https://opal.google/app/1mqZU9DRKxT_CkgYDrKbpKXr8LXycPite?results=1GEszd_y70RIfG0GIV85x2-HSkgjNFORu) |
+| **Hate Speech Auditor** | **Phase 1:** Research Demo | **Random Forest Classification** (Trained on DGHS/MLMA) | 🟡 Experimental | [**Launch Auditor**](https://opal.google/app/1mqZU9DRKxT_CkgYDrKbpKXr8LXycPite?results=1GEszd_y70RIfG0GIV85x2-HSkgjNFORu) |
+| **Bias Detector** | **Phase 2:** Enterprise Agent | **Dual-Layer Reasoning** (Sentiment Map + Implicit Framework) | 🟢 Active | [**Launch Agent**](https://opal.google/app/1vUJA2IktLVp0KKynli2xPaseY5CzPx-d) |
 
 ---
 
-## 🧠 The Dual-Layer Methodology
+## 🔬 Phase 1: The Hate Speech Auditor (Research Core)
+The **Auditor Tool** represents the raw technical findings of the "Analyzing Hate Speech" Capstone. It focuses on **high-velocity classification** of toxic content.
 
-The core innovation of this project is the shift from simple keyword filtering to a **Dual-Process Cognitive Architecture**:
+*   **The Problem:** Identifying explicit hate speech and polarization in large-scale political discourse.
+*   **The Models:**
+    *   **Random Forest:** Utilized for interpretable feature importance (e.g., identifying specific vocabulary linked to hate speech).
+    *   **SBERT (Sentence-BERT):** Employed to capture semantic meaning beyond simple keywords, measuring the "toxicity distance" between statements.
+*   **The Datasets:** Trained on **DGHS** (Dynamically Generated Hate Speech), **MLMA** (Multi-Label/Multi-Aspect), and **ConvAbuse** datasets.
+*   **Key Capability:** This tool provides a probability score for "Toxicity" and "Polarization," designed for researchers analyzing large corpora of text.
+
+---
+
+## 🧠 Phase 2: The Bias Detector (Enterprise Evolution)
+The **Bias Detector Agent** evolves the Phase 1 research into a production tool for the workplace. It shifts from simple classification to a **Dual-Process Cognitive Architecture**:
 
 ### 1. System 1: The Sentiment Mapping Registry (Fast Path)
-*   **Mechanism:** Deterministic lookup against a curated **High-Velocity Toxicity Registry** derived from the MLMA and DGHS datasets.
+*   **Mechanism:** Deterministic lookup against a curated **High-Velocity Toxicity Registry** derived from the Phase 1 datasets.
 *   **Purpose:** Instant identification of explicit hate speech, slurs, and violent rhetoric with zero latency.
-*   **Source Data:** See `dghs_sa_punc_imbalanced.csv` and `mlma_hate_speech_sa_punc_imbalanced.csv`.
+*   **Source Data:** See `Sentiment_Mapping_Table.csv`.
 
 ### 2. System 2: The Implicit Bias Framework (Slow Path)
 *   **Mechanism:** A "Counterfactual Inference Engine" (The Flip Test). The agent mentally swaps demographic markers (e.g., changing "she" to "he") to detect tonal discrepancies and double standards.
@@ -46,7 +58,7 @@ The core innovation of this project is the shift from simple keyword filtering t
 │
 ├── 📁 notebooks/
 │   ├── 01_EDA_and_Preprocessing.ipynb    # Data cleaning & imbalance handling
-│   ├── 02_Model_Training_RandomForest.ipynb # Baseline model training
+│   ├── 02_Model_Training_RandomForest.ipynb # Baseline model training (Auditor Logic)
 │   └── 03_SBERT_FineTuning.ipynb         # Semantic search implementation
 │
 ├── 📁 architecture/
@@ -55,6 +67,7 @@ The core innovation of this project is the shift from simple keyword filtering t
 │   └── Fornesa_Christopher_Capstone.pdf  # The original academic research paper
 │
 └── README.md
+
 
 ## 🔗 Connect with the Creator
 
